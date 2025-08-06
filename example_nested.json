@@ -1,0 +1,39 @@
+[
+  {
+    "order_id": "A1001",
+    "customer": {
+      "id": "C001",
+      "name": "Alice Johnson"
+    },
+    "items": [
+      {
+        "product": "Widget A",
+        "quantity": 2,
+        "price": 19.99
+      },
+      {
+        "product": "Widget B",
+        "quantity": 1,
+        "price": 29.99
+      }
+    ],
+    "order_total": 69.97,
+    "status": "shipped"
+  },
+  {
+    "order_id": "A1002",
+    "customer": {
+      "id": "C002",
+      "name": "Bob Smith"
+    },
+    "items": [
+      {
+        "product": "Widget A",
+        "quantity": 1,
+        "price": 19.99
+      }
+    ],
+    "order_total": 19.99,
+    "status": "processing"
+  }
+]
